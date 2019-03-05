@@ -915,6 +915,7 @@ button:focus {
     .single-post-area .navigation-area .nav-left:hover .thumb img {
       opacity: .5; }
     @media (max-width: 767px) {
+      
       .single-post-area .navigation-area .nav-left {
         margin-bottom: 30px; } }
   .single-post-area .navigation-area .nav-right {
@@ -942,6 +943,9 @@ button:focus {
   padding: 50px 30px;
   margin-top: 50px; }
   @media (max-width: 414px) {
+
+    
+
     .comments-area {
       padding: 50px 8px; } }
   .comments-area h4 {
@@ -1416,6 +1420,8 @@ button:focus {
 
 .generic-banner .height {
   height: 600px; }
+
+
 
 @media (max-width: 767.98px) {
   .generic-banner .height {
@@ -2697,7 +2703,7 @@ h6 {
       .tabs_inner .tab-content .tab-pane .list li .media .d-flex p {
         color: rgba(255, 255, 255, 0.75);
         margin-bottom: 0px;
-        min-width: 150px;
+        width: 160px;
         text-align: right;
         padding-top: 20px; }
     .tabs_inner .tab-content .tab-pane .list li .media .media-body h4 {
@@ -2708,6 +2714,15 @@ h6 {
     .tabs_inner .tab-content .tab-pane .list li .media .media-body p {
       color: rgba(255, 255, 255, 0.75);
       margin-bottom: 0px; }
+
+      @media (max-width:400px){
+
+        .tabs_inner .tab-content .tab-pane .list li .media .d-flex p{
+          text-align: left;
+        }
+      
+      }
+
 
 /* End My Tabs Area css
 ============================================================================================ */
