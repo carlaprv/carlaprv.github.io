@@ -2562,7 +2562,7 @@ h6 {
   .welcome_inner .welcome_img img {
     margin-top: -30px; }
 
-.welcome_text h4 {
+.welcome_text h2 {
   color: #222222;
   font-family: "Heebo", sans-serif;
   font-size: 36px;
@@ -2582,7 +2582,7 @@ h6 {
     background: linear-gradient(to right, #16205D 0%, #C940B7 70%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; }
-  .wel_item h4 {
+  .wel_item p.title {
     font-size: 24px;
     font-family: "Heebo", sans-serif;
     font-weight: bold;
@@ -2808,14 +2808,14 @@ h6 {
   font-weight: normal;
   margin-bottom: 12px;
   color: #222222; }
-.personal_text h4 {
+.personal_text h2 {
   font-size: 16px;
   font-weight: 500;
   font-family: "Overpass", sans-serif;
   text-transform: uppercase;
   margin-bottom: 20px;
   color: #222222; }
-.personal_text h3 {
+.personal_text h1 {
   font-size: 48px;
   text-transform: uppercase;
   margin-bottom: 15px;
