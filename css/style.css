@@ -2676,7 +2676,7 @@ h6 {
   .tabs_inner .tab-content .tab-pane .list li {
     margin-bottom: 60px;
     position: relative; }
-    .tabs_inner .tab-content .tab-pane .list li span {
+    .tabs_inner .tab-content .tab-pane .list li span.radius {
       height: 15px;
       width: 15px;
       border-radius: 50%;
@@ -2686,7 +2686,7 @@ h6 {
       left: 46%;
       top: 30px;
       transform: translateX(-50%); }
-      .tabs_inner .tab-content .tab-pane .list li span:before {
+      .tabs_inner .tab-content .tab-pane .list li span.radius:before {
         content: '';
         height: 7px;
         width: 7px;
@@ -2696,6 +2696,12 @@ h6 {
         left: 52%;
         top: 4px;
         transform: translateX(-50%); }
+
+        #foo input:not(.ignoreCss) {
+          background: red;
+      }
+
+     
     .tabs_inner .tab-content .tab-pane .list li:last-child {
       margin-bottom: 0px; }
     .tabs_inner .tab-content .tab-pane .list li .media .d-flex {
