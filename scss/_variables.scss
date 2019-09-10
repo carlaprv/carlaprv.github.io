@@ -1,6 +1,6 @@
 /*font Variables*/
-$rob: 'Roboto', sans-serif;
-$hee: 'Heebo', sans-serif;
+$rob: 'Inter', sans-serif;
+$hee: 'Inter', sans-serif;
 
 
 /*Color Variables*/
@@ -11,6 +11,11 @@ $pfont: #777777;
 
 /*=================== fonts ====================*/
 @import url('https://fonts.googleapis.com/css?family=Heebo:300,400,700,900|Roboto:300,400,500,700');
+@import url('https://rsms.me/inter/inter.css');
+html { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+  html { font-family: 'Inter var', sans-serif; }
+}
 
 // Mixins
 @mixin transition($property: all, $duration: 300ms, $animate: linear, $delay:0s){

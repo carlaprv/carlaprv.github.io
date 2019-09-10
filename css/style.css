@@ -41,8 +41,11 @@ Table of Content:
 /*font Variables*/
 /*Color Variables*/
 /*=================== fonts ====================*/
-@import url("https://fonts.googleapis.com/css?family=Heebo:300,400,700,900|Roboto:300,400,500,700");
-@import url('https://fonts.googleapis.com/css?family=Overpass:400,600,700');
+@import url('https://rsms.me/inter/inter.css');
+html { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+  html { font-family: 'Inter var', sans-serif; }
+}
 
 /*- Translator button- */
 
@@ -107,12 +110,12 @@ a {
 body {
   line-height: 26px;
   font-size: 16px;
-  font-family: "Overpass", sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: normal;
   color: #777777; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Heebo", sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: bold; }
 
 button:focus {
@@ -162,14 +165,14 @@ button:focus {
   max-width: 670px;
   margin: 0px auto 40px; }
   .main_title h2 {
-    font-family: "Heebo", sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 36px;
     color: #222222;
     margin-bottom: 15px;
     text-transform: uppercase; }
   .main_title p {
     font-size: 16px;
-    font-family: "Overpass", sans-serif;
+    font-family: "Inter", sans-serif;
     font-weight: normal;
     line-height: 26px;
     color: #777777;
@@ -188,7 +191,7 @@ button:focus {
   transition: background 0.4s, all 0.3s linear; }
   .header_area .navbar-brand{
     color:#fff;
-    font: 700 25px "Overpass", sans-serif;
+    font: 700 25px "Inter", sans-serif;
     letter-spacing: -1px;
   }
   .header_area .navbar-brand:hover{
@@ -203,7 +206,7 @@ button:focus {
     .header_area .navbar .nav .nav-item {
       margin-right: 45px; }
       .header_area .navbar .nav .nav-item .nav-link {
-        font: 500 13px/120px "Overpass", sans-serif;
+        font: 500 13px/120px "Inter", sans-serif;
         text-transform: uppercase;
         color: #fff;
         padding: 0px;
@@ -319,7 +322,7 @@ button:focus {
     display: inline-block;
     font-size: 12px;
     margin-right: 30px;
-    font-family: "Overpass", sans-serif;
+    font-family: "Inter", sans-serif;
     font-weight: normal;
     color: #777777;
     transition: all 300ms linear 0s; }
@@ -333,7 +336,7 @@ button:focus {
     border-radius: 3px;
     line-height: 28px;
     font-size: 12px;
-    font-family: "Overpass", sans-serif;
+    font-family: "Inter", sans-serif;
     font-weight: 500;
     padding-left: 19px;
     padding-right: 36px;
@@ -416,7 +419,7 @@ button:focus {
       .blog_banner .banner_inner .blog_b_text h2 {
         font-size: 60px;
         font-weight: bold;
-        font-family: "Heebo", sans-serif;
+        font-family: "Inter", sans-serif;
         line-height: 66px;
         margin-bottom: 15px;
         text-transform: uppercase; }
@@ -456,13 +459,13 @@ button:focus {
     .banner_area .banner_inner .banner_content h2 {
       color: #222222;
       font-size: 48px;
-      font-family: "Heebo", sans-serif;
+      font-family: "Inter", sans-serif;
       margin-bottom: 0px;
       font-weight: bold; }
     .banner_area .banner_inner .banner_content .page_link a {
       font-size: 14px;
       color: #222222;
-      font-family: "Overpass", sans-serif;
+      font-family: "Inter", sans-serif;
       margin-right: 32px;
       position: relative; }
       .banner_area .banner_inner .banner_content .page_link a:before {
@@ -492,7 +495,7 @@ button:focus {
   margin-bottom: 30px; }
   .l_blog_item .date {
     font-size: 13px;
-    font-family: "Overpass", sans-serif;
+    font-family: "Inter", sans-serif;
     font-weight: normal;
     color: #777777;
     margin-top: 20px;
@@ -604,14 +607,14 @@ button:focus {
   .blog_info .post_tag {
     padding-bottom: 20px; }
     .blog_info .post_tag a {
-      font: 300 14px/21px "Overpass", sans-serif;
+      font: 300 14px/21px "Inter", sans-serif;
       color: #222222; }
       .blog_info .post_tag a:hover {
         color: #777777; }
       .blog_info .post_tag a.active {
         color: #16205D; }
   .blog_info .blog_meta li a {
-    font: 300 14px/20px "Overpass", sans-serif;
+    font: 300 14px/20px "Inter", sans-serif;
     color: #777777;
     vertical-align: middle;
     padding-bottom: 12px;
@@ -1087,27 +1090,27 @@ button:focus {
   box-shadow: none;
   padding: 0px 15px;
   font-size: 13px;
-  font-family: "Overpass", sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 300;
   color: #999999; }
   .reservation_form .form-group input.placeholder {
     font-size: 13px;
-    font-family: "Overpass", sans-serif;
+    font-family: "Inter", sans-serif;
     font-weight: 300;
     color: #999999; }
   .reservation_form .form-group input:-moz-placeholder {
     font-size: 13px;
-    font-family: "Overpass", sans-serif;
+    font-family: "Inter", sans-serif;
     font-weight: 300;
     color: #999999; }
   .reservation_form .form-group input::-moz-placeholder {
     font-size: 13px;
-    font-family: "Overpass", sans-serif;
+    font-family: "Inter", sans-serif;
     font-weight: 300;
     color: #999999; }
   .reservation_form .form-group input::-webkit-input-placeholder {
     font-size: 13px;
-    font-family: "Overpass", sans-serif;
+    font-family: "Inter", sans-serif;
     font-weight: 300;
     color: #999999; }
 .reservation_form .form-group .res_select {
@@ -1119,7 +1122,7 @@ button:focus {
   line-height: 36px; }
   .reservation_form .form-group .res_select .current {
     font-size: 13px;
-    font-family: "Overpass", sans-serif;
+    font-family: "Inter", sans-serif;
     font-weight: 300;
     color: #999999; }
   .reservation_form .form-group .res_select:after {
@@ -1169,7 +1172,7 @@ button:focus {
   .contact_info .info_item h6 {
     font-size: 16px;
     line-height: 24px;
-    color: "Overpass", sans-serif;
+    color: "Inter", sans-serif;
     font-weight: bold;
     margin-bottom: 0px;
     color: #222222; }
@@ -1187,7 +1190,7 @@ button:focus {
     line-height: 20px;
     color: #222;
     border: 1px solid #999;
-    font-family: "Overpass", sans-serif;
+    font-family: "Inter", sans-serif;
     border-radius: 5px;
     padding: 25px 20px 25px 20px; }
     .contact_form .form-group .form-control:focus {
@@ -1238,7 +1241,7 @@ button:focus {
       text-align: center;
       color: #16205D;
       padding-bottom: 10px;
-      font-family: "Overpass", sans-serif; }
+      font-family: "Inter", sans-serif; }
     .modal-message .modal-dialog .modal-content .modal-header p {
       display: block; }
 
@@ -2449,7 +2452,7 @@ h6 {
   background-size: 200% auto;
   padding: 0px 40px;
   color: #fff;
-  font-family: "Overpass", sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 14px;
   font-weight: 500;
   line-height: 48px;
@@ -2471,7 +2474,7 @@ h6 {
   background: #f9f9ff;
   padding: 0px 45px;
   color: #222222;
-  font-family: "Overpass", sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 13px;
   font-weight: 500;
   line-height: 48px;
@@ -2495,7 +2498,7 @@ h6 {
   padding: 0px 50px;
   color: #16205D;
   margin-top:50px;
-  font-family: "Overpass", sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 14px;
   font-weight: 500;
   line-height: 50px;
@@ -2515,7 +2518,7 @@ h6 {
   background: #f9f9ff;
   padding: 0px 35px;
   color: #222222;
-  font-family: "Overpass", sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 13px;
   font-weight: 500;
   line-height: 34px;
@@ -2540,7 +2543,7 @@ h6 {
   display: inline-block;
   border-radius: 5px;
   font-size: 13px;
-  font-family: "Overpass", sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 500;
   transition: all 300ms linear 0s; }
   .black_btn:hover {
@@ -2564,13 +2567,13 @@ h6 {
 
 .welcome_text h2 {
   color: #222222;
-  font-family: "Heebo", sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 36px;
   margin-bottom: 18px;
   text-transform: uppercase; }
 .welcome_text p {
   max-width: 495px;
-  font-family: "Overpass", sans-serif;
+  font-family: "Inter", sans-serif;
   margin-bottom: 40px; }
 
 .wel_item {
@@ -2584,14 +2587,14 @@ h6 {
     -webkit-text-fill-color: transparent; }
   .wel_item p.title {
     font-size: 24px;
-    font-family: "Heebo", sans-serif;
+    font-family: "Inter", sans-serif;
     font-weight: bold;
     color: #222222;
     margin-bottom: 5px;
     margin-top: 10px; }
   .wel_item p {
     font-size: 16px;
-    font-family: "Overpass", sans-serif;
+    font-family: "Inter", sans-serif;
     color: #777777;
     margin-bottom: 0px; }
 
@@ -2604,7 +2607,7 @@ h6 {
     .tools_expert .skill_main .skill_item h4 {
       text-align: none;
       font-size: 14px;
-      font-family: "Overpass", sans-serif;
+      font-family: "Inter", sans-serif;
       font-weight: 500;
       color: #222222;
       margin-bottom: 15px; }
@@ -2652,7 +2655,7 @@ h6 {
       font-size: 20px;
       font-weight: 500;
       color: #fff;
-      font-family: "Overpass", sans-serif;
+      font-family: "Inter", sans-serif;
       border: 1px solid #fff;
       background: rgba(255, 255, 255, 0.1); }
       .tabs_inner .nav.nav-tabs li a.active {
@@ -2769,7 +2772,7 @@ h6 {
   .feature_item h4 {
     color: #222222;
     font-size: 21px;
-    font-family: "Heebo", sans-serif;
+    font-family: "Inter", sans-serif;
     font-weight: bold;
     margin-bottom: 20px;
     text-transform: uppercase; }
@@ -2808,7 +2811,7 @@ h6 {
 
 .personal_text h6 {
   font-size: 14px;
-  font-family: "Overpass", sans-serif;
+  font-family: "Inter", sans-serif;
   text-transform: uppercase;
   letter-spacing: 2.1px;
   font-weight: normal;
@@ -2817,7 +2820,7 @@ h6 {
 .personal_text h2 {
   font-size: 16px;
   font-weight: 500;
-  font-family: "Overpass", sans-serif;
+  font-family: "Inter", sans-serif;
   text-transform: uppercase;
   margin-bottom: 20px;
   color: #222222; }
@@ -2827,7 +2830,7 @@ h6 {
   margin-bottom: 15px;
   color: #222222; }
 .personal_text p {
-  font-family: "Overpass", sans-serif;
+  font-family: "Inter", sans-serif;
   max-width: 540px;
   color: #222;
   line-height: 30px;
@@ -2887,7 +2890,7 @@ h6 {
         margin-right: 0px; }
       .isotope_fillter .gallery_filter li a {
         font-size: 14px;
-        font-family: "Overpass", sans-serif;
+        font-family: "Inter", sans-serif;
         font-weight: 500;
         color: #222222;
         transition: all 300ms linear 0s;
@@ -2978,7 +2981,7 @@ h6 {
 .test_title h2 {
   color: #222222;
   font-size: 36px;
-  font-family: "Overpass", sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: bold;
   margin-bottom: 12px; }
 .test_title p {
@@ -3013,13 +3016,13 @@ h6 {
     color: #fff;
     font-size: 18px;
     font-weight: bold;
-    font-family: "Heebo", sans-serif;
+    font-family: "Inter", sans-serif;
     margin-bottom: 0px; }
 
 .ab_widget p {
   font-size: 14px;
   line-height: 20px;
-  font-family: "Overpass", sans-serif;
+  font-family: "Inter", sans-serif;
   color: #f2f2f2;
   margin-bottom: 15px; }
   .ab_widget p a {
@@ -3034,7 +3037,7 @@ h6 {
   .news_widget p {
     font-size: 14px;
     line-height: 24px;
-    font-family: "Overpass", sans-serif;
+    font-family: "Inter", sans-serif;
     color: #777777;
     margin-bottom: 15px; }
   .news_widget .input-group input {
@@ -3046,28 +3049,28 @@ h6 {
     padding: 0px 15px;
     border: 1px solid #1e233b;
     font-size: 14px;
-    font-family: "Overpass", sans-serif;
+    font-family: "Inter", sans-serif;
     color: #cccccc;
     outline: none;
     box-shadow: none; }
     .news_widget .input-group input.placeholder {
       font-size: 14px;
-      font-family: "Overpass", sans-serif;
+      font-family: "Inter", sans-serif;
       font-weight: normal;
       color: #cccccc; }
     .news_widget .input-group input:-moz-placeholder {
       font-size: 14px;
-      font-family: "Overpass", sans-serif;
+      font-family: "Inter", sans-serif;
       font-weight: normal;
       color: #cccccc; }
     .news_widget .input-group input::-moz-placeholder {
       font-size: 14px;
-      font-family: "Overpass", sans-serif;
+      font-family: "Inter", sans-serif;
       font-weight: normal;
       color: #cccccc; }
     .news_widget .input-group input::-webkit-input-placeholder {
       font-size: 14px;
-      font-family: "Overpass", sans-serif;
+      font-family: "Inter", sans-serif;
       font-weight: normal;
       color: #cccccc; }
   .news_widget .input-group .sub-btn {
@@ -3086,7 +3089,7 @@ h6 {
 .social_widget p {
   font-size: 14px;
   line-height: 24px;
-  font-family: "Overpass", sans-serif;
+  font-family: "Inter", sans-serif;
   color: #f2f2f2;
   margin-bottom: 10px; }
 .social_widget .list li {
