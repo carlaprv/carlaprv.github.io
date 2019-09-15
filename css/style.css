@@ -2573,6 +2573,7 @@ h6 {
   text-transform: uppercase; }
 .welcome_text p {
   max-width: 495px;
+  color: #000;
   font-family: "Inter", sans-serif;
   margin-bottom: 40px; }
 
@@ -2825,7 +2826,7 @@ h6 {
   margin-bottom: 20px;
   color: #222222; }
 .personal_text h1 {
-  font-size: 48px;
+  font-size: 44px;
   text-transform: uppercase;
   margin-bottom: 15px;
   color: #222222; }
@@ -2859,7 +2860,7 @@ h6 {
     .personal_text .personal_social li:last-child {
       margin-right: 0px; }
     .personal_text .personal_social li a {
-      line-height: 45px;
+      line-height: 40px;
       width: 40px;
       height: 40px;
       background: #16205D;
