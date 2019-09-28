@@ -112,7 +112,7 @@ body {
   font-size: 16px;
   font-family: "Inter", sans-serif;
   font-weight: normal;
-  color: #777777; }
+  color: #222; }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Inter", sans-serif;
@@ -175,7 +175,7 @@ button:focus {
     font-family: "Inter", sans-serif;
     font-weight: normal;
     line-height: 26px;
-    color: #777777;
+    color: #222;
     margin-bottom: 0px; }
 
 /* End Main Title Area css
@@ -309,7 +309,7 @@ button:focus {
     margin-right: 15px; }
     .top_menu .header_social li a {
       font-size: 14px;
-      color: #777777;
+      color: #222;
       display: inline-block;
       line-height: 42px;
       transition: all 300ms linear 0s; }
@@ -324,7 +324,7 @@ button:focus {
     margin-right: 30px;
     font-family: "Inter", sans-serif;
     font-weight: normal;
-    color: #777777;
+    color: #222;
     transition: all 300ms linear 0s; }
     .top_menu .dn_btn:hover {
       color: #16205D; }
@@ -340,12 +340,12 @@ button:focus {
     font-weight: 500;
     padding-left: 19px;
     padding-right: 36px;
-    color: #777777;
+    color: #222;
     background: #f9f9ff;
     margin-right: 5px;
     margin-top: 8px; }
     .top_menu .lan_pack .current {
-      color: #777777; }
+      color: #222; }
     .top_menu .lan_pack:after {
       content: "\f0d7";
       border: none !important;
@@ -497,7 +497,7 @@ button:focus {
     font-size: 13px;
     font-family: "Inter", sans-serif;
     font-weight: normal;
-    color: #777777;
+    color: #222;
     margin-top: 20px;
     display: block;
     margin-bottom: 15px; }
@@ -530,7 +530,7 @@ button:focus {
       padding: 10px 0px 13px;
       transition: all 0.3s linear; }
       .single-recent-blog-post .details .sec_h4:hover {
-        color: #777777; }
+        color: #222; }
   .single-recent-blog-post .date {
     font-size: 14px;
     line-height: 24px;
@@ -610,12 +610,12 @@ button:focus {
       font: 300 14px/21px "Inter", sans-serif;
       color: #222222; }
       .blog_info .post_tag a:hover {
-        color: #777777; }
+        color: #222; }
       .blog_info .post_tag a.active {
         color: #16205D; }
   .blog_info .blog_meta li a {
     font: 300 14px/20px "Inter", sans-serif;
-    color: #777777;
+    color: #222;
     vertical-align: middle;
     padding-bottom: 12px;
     display: inline-block; }
@@ -981,7 +981,7 @@ button:focus {
     color: #cccccc;
     margin-bottom: 13px; }
   .comments-area .comment {
-    color: #777777;
+    color: #222;
     margin-bottom: 0px; }
   .comments-area .btn-reply {
     background-color: #fff;
@@ -1027,7 +1027,7 @@ button:focus {
     border-radius: 0px;
     width: 100%;
     font-size: 14px;
-    color: #777777;
+    color: #222;
     border: 1px solid transparent; }
     .comment-form .form-control:focus {
       box-shadow: none;
@@ -1507,7 +1507,7 @@ h6 {
   font-size: 14px; }
 
 .typography h1, .typography h2, .typography h3, .typography h4, .typography h5, .typography h6 {
-  color: #777777; }
+  color: #222; }
 
 .button-area .border-top-generic {
   padding: 70px 15px;
@@ -1843,7 +1843,7 @@ h6 {
 
 .ordered-list li span {
   font-weight: 300;
-  color: #777777; }
+  color: #222; }
 
 .ordered-list-alpha li {
   margin-left: 30px;
@@ -1854,7 +1854,7 @@ h6 {
 
 .ordered-list-alpha li span {
   font-weight: 300;
-  color: #777777; }
+  color: #222; }
 
 .ordered-list-roman li {
   margin-left: 30px;
@@ -1865,7 +1865,7 @@ h6 {
 
 .ordered-list-roman li span {
   font-weight: 300;
-  color: #777777; }
+  color: #222; }
 
 .single-input {
   display: block;
@@ -2595,7 +2595,7 @@ h6 {
   .wel_item p {
     font-size: 16px;
     font-family: "Inter", sans-serif;
-    color: #777777;
+    color: #222;
     margin-bottom: 0px; }
 
 .tools_expert {
@@ -2611,6 +2611,24 @@ h6 {
       font-weight: 500;
       color: #222222;
       margin-bottom: 15px; }
+      .tools_expert .skill_main button.github{
+        text-align: center;
+        background: #16205D;
+        text-decoration: none;
+        border: none;
+        font-size: 14px;
+        font-family: "Inter", sans-serif;
+        font-weight: 500;
+        color: #fff;
+        padding:8px;
+        border-radius: 5px;
+        margin-bottom: 15px; }
+      .tools_expert .skill_main .skill_item b {
+        text-align: none;
+        font-size: 16px;
+        font-family: "Inter", sans-serif;
+        color: #222222;
+        margin-bottom: 15px; }
     .tools_expert .skill_main .skill_item .progress_br {
       border: 1px solid #eeeeee;
       padding: 5px;
@@ -2841,7 +2859,7 @@ h6 {
     position: relative;
     padding-left: 40px;
     font-size: 16px;
-    color: #777777; }
+    color: #222; }
     .personal_text .basic_info li a i {
       position: absolute;
       left: 0px;
@@ -3040,7 +3058,7 @@ h6 {
     font-size: 14px;
     line-height: 24px;
     font-family: "Inter", sans-serif;
-    color: #777777;
+    color: #222;
     margin-bottom: 15px; }
   .news_widget .input-group input {
     height: 40px;

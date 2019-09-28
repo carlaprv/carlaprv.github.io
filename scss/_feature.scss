@@ -62,13 +62,22 @@
 			&:last-child{
 				margin-bottom: 0px;
 			}
+			b, span{
+				font-size: 15px;
+				
+			}
 			h4{
 				text-align: none;
-				font-size: 14px;
+				font-size: 15px;
 				font-family: $rob;
 				font-weight: 500;
 				color: $dip;
+				display: inline;
 				margin-bottom: 15px;
+			}
+			.years_experience{
+				font-size: 14px;
+				
 			}
 			.progress_br{
 				border: 1px solid #eeeeee;
