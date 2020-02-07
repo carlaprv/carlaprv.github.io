@@ -2954,7 +2954,7 @@ h6 {
     text-align: center; }
     .h_gallery_item .g_item_text h4 {
       color: #222222;
-      font-size: 21px;
+      font-size: 18px;
       margin-top: 22px;
       transition: all 300ms linear 0s; }
     .h_gallery_item .g_item_text p {
@@ -3135,3 +3135,44 @@ h6 {
 /*---------------------------------------------------- */
 
 /*# sourceMappingURL=style.css.map */
+
+
+.none{
+  display: none;
+}
+/* Gallery button */
+.event_name{
+  font-weight:;
+  color:#000;
+}
+
+.links{
+  margin-bottom:10px;
+  margin-top: 10px;
+}
+
+.button{
+  padding:7px;
+  background:#000;
+  color:#fff;
+  border-radius:5px;
+  text-transform: uppercase;
+  font-size:11px;
+  font-weight:bold;
+  margin-right: 8px;
+}
+
+.button:hover{
+  padding:7px;
+  background:#C940B7;
+  color:#fff;
+  border-radius:5px;
+  text-transform: uppercase;
+  font-size:11px;
+  font-weight:bold;
+  margin-right: 8px;
+}
+
+
+/*# sourceMappingURL=style.css.map */
+
