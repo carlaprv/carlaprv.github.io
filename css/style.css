@@ -153,7 +153,7 @@ button:focus {
 
 @media (min-width: 1620px) {
   .box_1620 {
-    max-width: 1620px;
+    /*max-width: 1620px;*/
     margin: auto;
     width: 100%;
     padding-left: 0px;
