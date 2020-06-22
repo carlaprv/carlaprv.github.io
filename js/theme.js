@@ -136,7 +136,7 @@
         if ( $('.gallery_f_inner').length ){
             // Activate isotope in container
 			$(".gallery_f_inner").imagesLoaded( function() {
-                var selector = ".2020"
+                var selector = "*"
                 $(".gallery_f_inner").isotope({
                     layoutMode: 'fitRows',
                     filter: selector,
