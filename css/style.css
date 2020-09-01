@@ -2814,7 +2814,7 @@ h6 {
 ============================================================================================ */
 .page_text p {
   font-family: "Inter", sans-serif;
-  max-width: 540px;
+  /* max-width: 540px; */
   color: #222;
   line-height: 30px;
   margin-bottom: 30px; 
