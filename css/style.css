@@ -2819,14 +2819,26 @@ h6 {
   line-height: 30px;
   margin-bottom: 30px; 
 }
+.line-titles{
+  border-bottom: 1px solid #ccc;
+  padding-bottom:10px;
+}
 .page_text h1 {
   font-size: 38px;
   text-transform: uppercase;
   margin-bottom: 15px;
   color: #222222; }
 .page_text h2 {
-  font-size: 20px;
-  font-weight: 500;
+  font-size: 24px;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  color: #222222; 
+}
+.page_text h3 {
+  font-size: 19px;
+  font-weight: 600;
   font-family: "Inter", sans-serif;
   text-transform: uppercase;
   margin-bottom: 20px;
